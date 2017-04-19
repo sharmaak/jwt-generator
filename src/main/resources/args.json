@@ -1,0 +1,32 @@
+[
+  {
+    "name": "--alg",
+    "description": "Encryption algorithm",
+    "mandatory": true
+  },
+  {
+    "name": "--jti",
+    "description": "REALDoc tenant id",
+    "mandatory": true
+  },
+  {
+    "name": "--sec",
+    "description": "Tenant's secret key",
+    "mandatory": true
+  },
+  {
+    "name": "--sub",
+    "description": "Tenant's user-id",
+    "mandatory": true
+  },
+  {
+    "name": "--exp",
+    "description": "Token expiry duration in seconds",
+    "mandatory": true
+  },
+  {
+    "name": "--verbose",
+    "description": "If true, prints detailed information",
+    "mandatory": false
+  }
+]
